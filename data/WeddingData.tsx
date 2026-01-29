@@ -1,4 +1,4 @@
-export const weddingData = {
+export const WeddingData = {
   // --- WEDDING SECTION ---
   gold: {
     type: "wedding",
