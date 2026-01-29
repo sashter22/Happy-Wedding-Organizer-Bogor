@@ -3,7 +3,7 @@ import { useState } from "react";
 // 1. IMPORT DATA DAN MODAL
 import PriceModal from "./PriceModal";
 // @ts-ignore
-import { weddingData } from "@/Data/WeddingData";
+import { WeddingData } from "@/data/WeddingData";
 
 export default function PackageSection() {
   const [activeTab, setActiveTab] = useState("wedding");
