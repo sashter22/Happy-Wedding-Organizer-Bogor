@@ -161,14 +161,14 @@ export default function PriceModal({ isOpen, onClose, pkg }: PriceModalProps) {
         </div>
 
         {/* Footer WhatsApp */}
-        <div className="p-6 bg-stone-50 border-t flex justify-end">
+        <div className="p-6 bg-stone-50 border-t flex justify-center">
           <a
             href="https://wa.me/6285894141698"
             target="_blank"
-            className="bg-[#25d366] text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest text-[10px] flex items-center gap-3 hover:bg-[#20bd5a] transition-all shadow-lg"
+            className="w-full md:w-auto bg-[#25d366] text-white px-10 py-4 rounded-2xl font-bold uppercase tracking-widest text-[10px] flex items-center justify-center gap-3 hover:bg-[#20bd5a] transition-all shadow-lg"
           >
-            <i className="fa-brands fa-whatsapp text-xl"></i> Hubungi Via
-            WhatsApp
+            <i className="fa-brands fa-whatsapp text-xl"></i>
+            Hubungi Via WhatsApp
           </a>
         </div>
       </div>
