@@ -63,7 +63,7 @@ export default function PackageSection() {
             <>
               {/* Card 1: Gold - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData.gold)}
+                onClick={() => openModal(WeddingData.gold)}
                 className={`bg-stone-100/50 p-8 rounded-[40px] shadow-sm border-t-8 border-[#D4AF37] flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
               >
@@ -83,7 +83,7 @@ export default function PackageSection() {
 
               {/* Card 2: Platinum - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData.platinum)}
+                onClick={() => openModal(WeddingData.platinum)}
                 className={`bg-[#1C1917] p-8 rounded-[40px] shadow-2xl border-b-8 border-[#D4AF37] flex flex-col items-center text-center transform lg:scale-105 z-10 ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="100"
@@ -104,7 +104,7 @@ export default function PackageSection() {
 
               {/* Card 3: Silver - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData.silver)}
+                onClick={() => openModal(WeddingData.silver)}
                 className={`bg-stone-100/50 p-8 rounded-[40px] shadow-sm border-b-8 border-stone-200 flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="200"
@@ -125,7 +125,7 @@ export default function PackageSection() {
 
               {/* Card 4: Gedung - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData.gedung)}
+                onClick={() => openModal(WeddingData.gedung)}
                 className={`bg-stone-100/30 p-8 rounded-[40px] border-2 border-dashed border-stone-200 flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="300"
@@ -148,7 +148,7 @@ export default function PackageSection() {
             <>
               {/* Card 5: Foodstall - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData.foodstall)}
+                onClick={() => openModal(WeddingData.foodstall)}
                 className={`bg-stone-100/50 p-8 rounded-[40px] shadow-sm border-b-8 border-stone-800 flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
               >
@@ -165,7 +165,7 @@ export default function PackageSection() {
 
               {/* Card 6: Catering Gold - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData["cat-gold"])}
+                onClick={() => openModal(WeddingData["cat-gold"])}
                 className={`bg-stone-100/50 p-8 rounded-[40px] shadow-sm border-b-8 border-[#D4AF37] flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="100"
@@ -186,7 +186,7 @@ export default function PackageSection() {
 
               {/* Card 7: Catering Platinum - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData["cat-platinum"])}
+                onClick={() => openModal(WeddingData["cat-platinum"])}
                 className={`bg-[#1C1917] p-8 rounded-[40px] shadow-2xl border-b-8 border-[#D4AF37] flex flex-col items-center text-center transform lg:scale-105 z-10 ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="200"
@@ -207,7 +207,7 @@ export default function PackageSection() {
 
               {/* Card 8: Catering Bronze - PASANG onClick */}
               <div
-                onClick={() => openModal(weddingData["cat-bronze"])}
+                onClick={() => openModal(WeddingData["cat-bronze"])}
                 className={`bg-stone-100/80 p-8 rounded-[40px] shadow-sm border-b-8 border-stone-200 flex flex-col items-center text-center ${cardInteraction}`}
                 data-aos="fade-up"
                 data-aos-delay="300"
