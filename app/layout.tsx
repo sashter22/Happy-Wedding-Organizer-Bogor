@@ -38,7 +38,7 @@ export default function RootLayout({
         </title>
         <meta
           name="description"
-          content="Layanan Wedding Organizer & Sierra Catering profesional di Bogor. Paket dekorasi elegan dan catering premium untuk momen spesial Anda."
+          content="Layanan Wedding Organizer & Sierra Catering profesional di Bogor. Paket dekorasi elegan dan catering premium untuk momen spesial Anda. Kami memastikan setiap detail dekorasi dan rasa hidangan catering Sierra menjadi kenangan tak terlupakan."
         />
         <meta
           name="keywords"
