@@ -37,14 +37,14 @@ export default function About() {
             data-aos="fade-up"
           >
             <div>
-              {/* TEKS EMAS DIMIRINGKAN (italic) */}
+              {/* TEKS gold */}
               <span className="text-[#D4AF37] font-bold tracking-[0.3em] text-[10px] md:text-[11px] uppercase block mb-4 italic">
                 Specialized in Decor & Catering
               </span>
-              <h2 className="text-4xl md:text-5xl font-serif text-stone-800 leading-tight">
-                Harmoni keindahan <br />
-                {/* TEKS JUDUL BARIS KEDUA DIMIRINGKAN (italic) */}
-                <span className="italic font-light text-stone-600">
+              <h2 className="text-4xl md:text-6xl font-serif text-stone-800 leading-[1.2] md:leading-tight">
+                Harmoni keindahan
+                <span className="block italic font-light text-stone-600 mt-2 md:mt-0 md:inline">
+                  {" "}
                   dalam setiap elemen
                 </span>
               </h2>
